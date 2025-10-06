@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@plugin "daisyui" {
+  themes: corporate --default, business --prefersdark;
+}
+
+@plugin "daisyui/theme" {
+  name: "corporate";
+  default: true;
+  --color-primary: oklch(44.28% 0.069 249.63);
+}
+
+@plugin "daisyui/theme" {
+  name: "business";
+  prefersdark: true;
+  --color-primary: oklch(44.28% 0.069 249.63);
+}

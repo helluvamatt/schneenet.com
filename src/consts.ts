@@ -1,0 +1,12 @@
+export const SITE_TITLE = 'SCHNEENET Services, Ltd.';
+export const COMPANY_NAME = 'SCHNEENET Services, Ltd.';
+export const COMPANY_CITY = 'Oklahoma City';
+export const COMPANY_STATE = 'OK';
+export const COMPANY_COUNTRY = 'United States of America';
+export const DEFAULT_LOCALE = 'en-US';
+export const DEFAULT_LOGO_URL = '/logo.svg';
+export const DEFAULT_IMAGE_WIDTH = '100';
+export const DEFAULT_IMAGE_HEIGHT = '100';
+export const PRIMARY_EMAIL = 'matt@schneenet.com';
+export const LINKEDIN_URL = 'https://www.linkedin.com/in/mattschneeberger/';
+export const GITHUB_URL = 'https://www.github.com/helluvamatt/';

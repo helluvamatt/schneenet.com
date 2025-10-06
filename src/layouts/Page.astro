@@ -1,0 +1,18 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+interface Props {
+  frontmatter: {
+    title?: string;
+    description: string;
+    image?: string;
+    keywords?: string;
+  }
+}
+---
+
+<Layout frontmatter={Astro.props.frontmatter}>
+  <main class="container mx-auto mt-8 prose prose-sm xl:prose-md">
+    <slot />
+  </main>
+</Layout>
