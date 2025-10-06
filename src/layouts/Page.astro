@@ -4,15 +4,22 @@ import Layout from '../layouts/Layout.astro';
 interface Props {
   frontmatter: {
     title?: string;
+    smallSubtitle?: string;
     description: string;
     image?: string;
     keywords?: string;
   }
 }
+
+const { title, smallSubtitle } = Astro.props.frontmatter;
 ---
 
 <Layout frontmatter={Astro.props.frontmatter}>
   <main class="container mx-auto prose prose-sm xl:prose-md p-4 lg:p-8">
+    {title && <div class="mb-6">
+      <h1 class="mb-0 underline decoration-primary">{title}</h1>
+      {smallSubtitle && <small>{smallSubtitle}</small>}
+    </div>}
     <slot />
   </main>
 </Layout>

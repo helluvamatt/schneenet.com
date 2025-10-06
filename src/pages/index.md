@@ -1,17 +1,16 @@
 ---
-title: 'Matt Schneeberger - SCHNEENET Services, Ltd.'
+title: 'Matt Schneeberger'
+smallSubtitle: 'he/him'
 layout: '../layouts/Page.astro'
 author: 'Matt Schneeberger'
 description: 'Results-driven Senior Application Developer skilled in full-stack development, database optimization, and secure system integration.'
 ---
 
-## Matt Schneeberger
-
 Results-driven Senior Application Developer skilled in full-stack development, database optimization, and secure system integration. Extensive track record building electronic health record systems, e-commerce platforms, and enterprise web applications using ASP.NET Core, C#, JavaScript/TypeScript, and relational databases. Experienced mentor and collaborative team player who improves development processes, reduces technical debt, and drives modernization strategies. Known for delivering customer-focused solutions while maintaining best practices in architecture, design, and performance.
 
-### Skills
+## Skills
 
-#### Software Architecture
+### Software Architecture
 
 * Event-based microservices
 * Modular monolith

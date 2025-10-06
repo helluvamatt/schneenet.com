@@ -1,0 +1,5 @@
+@layer base {
+  .prose h1 {
+    @apply underline decoration-primary;
+  }
+}
